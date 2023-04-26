@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #fafafa;
+  color: #212121;
+  line-height: 1.5;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+/* --- switcher buttons --- */
+
+.switcher-btn {
+  position: relative;
+  width: 130px;
+  height: 80px;
+  margin-right: 20px;
+  font-size: 16px;
+  border-radius: 3.5%;
+  border: none;
+  box-shadow: 1px 1px 3px 0px rgba(115, 115, 115, 0.32);
+  background-color: #ffff;
+  cursor: pointer;
+  transition-duration: 250ms;
+}
+
+/* --- timer styles ---*/
+
+.input-date {
+height: 25px;
+}
+
+.timer-button {
+  width: 55px;
+  height: 25px;
+  font-size: 13px;
+  border-radius: 3.5%;
+  border: none;
+  box-shadow: 1px 1px 3px 0px rgba(115, 115, 115, 0.32);
+  background-color: #ffff;
+  cursor: pointer;
+  transition-duration: 150ms;
+}
+.timer-button:focus {
+ cursor: pointer;
+ box-shadow: inset 1px 1px 3px 0px rgba(115, 115, 115, 0.32);
+}
+
+.timer {
+  display: flex;
+  margin-top: 13px;
+  gap: 20px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.value {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.label {
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+
+}
