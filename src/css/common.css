@@ -17,8 +17,6 @@ img {
   max-width: 100%;
 }
 
-/* --- switcher buttons --- */
-
 .switcher-btn {
   position: relative;
   width: 130px;
@@ -32,8 +30,6 @@ img {
   cursor: pointer;
   transition-duration: 250ms;
 }
-
-/* --- timer styles ---*/
 
 .input-date {
 height: 25px;
